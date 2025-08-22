@@ -7,9 +7,9 @@ import pytz
 
 class Rolex_NumberAdmin(admin.ModelAdmin):
     list_display = ('User', 'Today_Number', 'Sign', 'Description', 'Created_at', 'Week', 'Month', 'Year')
-    search_fields = ('Sign', 'Created_at')
+    search_fields = ('Sign', 'Created_at', 'Description')
     list_filter = ('Sign', 'Created_at', 'User')
-    list_per_page = 10
+    list_per_page = 20
 
     formfield_overrides = {
         models.TextField: {'widget': admin.widgets.AdminTextareaWidget(attrs={'rows': 2, 'cols': 30})},

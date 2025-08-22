@@ -17,9 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-admin.site.site_header = "Rolex King Admin Panel"
+admin.site.site_header = "Rolex Satta King Super Admin"
 admin.site.site_title = "Rolex King Admin Panel"
-admin.site.index_title = "Welcome to Rolex King Admin Panel Portal"
+admin.site.index_title = "Welcome to Rolex Satta King Admin Panel"
 
 
 urlpatterns = [
