@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-bxh(h63jcf8h3zlbm=9ls--u02m8(t0a!&p_fx7fa-gvpa5fen
 DEBUG = True
 
 ALLOWED_HOSTS = ['rolexsattaking.onrender.com']
+# ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://rolexsattaking.onrender.com',
